@@ -1,10 +1,12 @@
 # AzureInfra
 
-## Linux VM Creation 
+## Project Structure
 
-### Azure Linux VM Terraform Deployment
+- **linux-vm/**  
+  Contains all Terraform code for deploying a Linux VM, including networking, security, and storage resources.
+- **infra/bicep/**  
+  Contains Bicep files for deploying Azure infrastructure as an alternative to Terraform.
 
-This project provides Terraform code to deploy a secure, public Linux virtual machine on Microsoft Azure. It provisions all required networking, security, and compute resources, and is suitable for development, testing, or learning purposes.
 
 #### Features
 
