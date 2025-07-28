@@ -6,6 +6,9 @@
   Contains all Terraform code for deploying a Linux VM, including networking, security, and storage resources.
 - **infra/bicep/**  
   Contains Bicep files for deploying Azure infrastructure as an alternative to Terraform.
+- **aks/**
+  Reference for creating the aks and deploying aks-store-quickstart application
+  [AKS Application](https://learn.microsoft.com/en-us/azure/aks/tutorial-kubernetes-deploy-application?tabs=azure-cli)
 
 
 #### Features
